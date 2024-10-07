@@ -1,0 +1,13 @@
+.container {
+    padding: 0 8em
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 24px 0;
+}
+
+.text {
+    font-size: 1.2em;
+}
