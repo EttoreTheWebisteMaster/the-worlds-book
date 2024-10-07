@@ -4,6 +4,7 @@
 	--foreground: #333;
 	--color-primary: #A5987C;
 	--color-primary-hover: #91866e;
+	--color-primary-light: #D1CBB9;
 	--color-secondary: #FFFFF7;
 	--color-secondary-hover: #f8f8f0;
 }
@@ -24,9 +25,10 @@ body {
 body {
 	color: var(--foreground);
 	background: var(--background);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: var(--font-courier-prime);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.3;
 }
 
 * {

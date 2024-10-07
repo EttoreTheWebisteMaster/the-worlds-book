@@ -8,9 +8,11 @@ const ButtonSecondary = styled(Button)<ButtonProps>(() => ({
 	color: 'var(--color-primary)',
 	padding: '1em 4em',
     margin: '.5em 0',
-	borderRadius: '0',
+	borderRadius: 0,
 	textTransform: 'uppercase',
     fontWeight: 'bold',
+	fontFamily: 'var(--font-typewriter)',
+	lineHeight: 0,
     position: 'relative',
     '&::before, &::after': {
         content: '""',
@@ -22,16 +24,16 @@ const ButtonSecondary = styled(Button)<ButtonProps>(() => ({
     '&::before': {
         top: 0,
         right: 0,
-        width: '50px',
-        height: '15px', 
+        width: '100px',
+        height: '20px', 
         borderWidth: '1px 1px 0 0',
     },
     // Bottom-left corner border
     '&::after': {
         bottom: 0,
         left: 0,
-        width: '50px',
-        height: '15px', 
+        width: '100px',
+        height: '20px', 
         borderWidth: '0 0 1px 1px',
     },
 	'&:hover': {

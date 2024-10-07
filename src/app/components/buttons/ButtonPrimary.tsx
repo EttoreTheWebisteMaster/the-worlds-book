@@ -8,9 +8,11 @@ const ButtonPrimary = styled(Button)<ButtonProps>(() => ({
 	color: 'var(--background)',
 	padding: '1em 4em',
     margin: '.5em 0',
-	borderRadius: '0',
+	borderRadius: 0,
 	textTransform: 'uppercase',
     fontWeight: 'bold',
+	fontFamily: 'var(--font-typewriter)',
+	lineHeight: 0,
 	'&:hover': {
 		backgroundColor: 'var(--color-primary-hover)',
 	},
