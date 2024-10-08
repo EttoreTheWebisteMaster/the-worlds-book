@@ -5,9 +5,13 @@ export default function Footer() {
     const year = date.getFullYear();
 
 	return (
-		<Box sx={{ textAlign: 'center', marginTop: '10em', marginBottom: '2em' }}>
-            <Box sx={{ fontSize: '1.2em', marginBottom: '1em' }}>About | Community | Contact</Box>
-            <Box>© {year} The World's Book. All rights reserved.</Box>
+		<Box sx={{ textAlign: 'center', marginTop: '16em', marginBottom: '2em', padding: '1em' }}>
+            <Box sx={{ fontSize: '1.1em', marginBottom: '1em' }}>
+                <a href="">About</a>{' | '}
+                <a href="">Community</a>{' | '}
+                <a href="">Contact</a>
+            </Box>
+            <Box>© {year} World&#39;s Book. All rights reserved.</Box>
         </Box>
 	);
 }

@@ -13,6 +13,9 @@ const ButtonPrimary = styled(Button)<ButtonProps>(() => ({
     fontWeight: 'bold',
 	fontFamily: 'var(--font-typewriter)',
 	lineHeight: 0,
+	whiteSpace: 'nowrap',
+	overflow: 'hidden',  
+	textOverflow: 'ellipsis',
 	'&:hover': {
 		backgroundColor: 'var(--color-primary-hover)',
 	},

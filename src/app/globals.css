@@ -1,11 +1,11 @@
 /* System variables */
 :root {
-	--background: #FFFFF7;
+	--background: #fffff7;
 	--foreground: #333;
-	--color-primary: #A5987C;
+	--color-primary: #a5987c;
 	--color-primary-hover: #91866e;
-	--color-primary-light: #D1CBB9;
-	--color-secondary: #FFFFF7;
+	--color-primary-light: #d1cbb9;
+	--color-secondary: #fffff7;
 	--color-secondary-hover: #f8f8f0;
 }
 
@@ -20,6 +20,7 @@
 html,
 body {
 	max-width: 100vw;
+	overflow-x: hidden;
 }
 
 body {
@@ -35,6 +36,10 @@ body {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+}
+
+a {
+	color: var(--foreground);
 }
 
 /* Dark theme */

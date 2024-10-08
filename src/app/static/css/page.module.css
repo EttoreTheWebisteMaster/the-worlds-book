@@ -1,80 +1,159 @@
 .container {
-    padding: 0 8em
+	padding: 0 20%;
+}
+
+.paragraph {
+	margin-top: 16em;
+	position: relative;
+}
+
+.paragraphIcon {
+	position: absolute;
+	color: #f6f5eb;
+	top: -5em;
+}
+
+.paragraphIcon > svg {
+	font-size: 24em;
 }
 
 .title {
-    font-family: var(--font-courier-prime);
-    font-size: 1.8em;
-    font-weight: bold;
-    margin: 3em 0 1em 0;
+	font-family: var(--font-courier-prime);
+	font-size: 1.8em;
+	font-weight: bold;
+	margin: 1em 0;
 }
 
 .subtitle {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: var(--color-primary);
-    margin: .5em 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: var(--color-primary);
+	margin: 0.5em 0;
 }
 
 .text {
-    font-size: 1.2em;
+	font-size: 1.2em;
 }
 
 .bulletList {
-    margin-left: 1em
+	margin-left: 1em;
 }
 
 .bulletList > li {
-   margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 .detailsButton {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-transform: uppercase;
-    width: max-content;
-    display: flex;
-    align-items: center;
-    line-height: 0;
-    cursor: pointer;
-    margin: 2em 0;
-    text-decoration: underline;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: max-content;
+	display: flex;
+	align-items: center;
+	line-height: 0;
+	cursor: pointer;
+	margin: 2em 0;
+	text-decoration: underline;
 }
 
+/* COUNTDOWN */
+.countdownContainer {
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.countdownText {
+	font-size: 0.75em;
+}
+
+/* BUTTONS */
+
+.buttonsContainer {
+	margin: 5em 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.button {
+	width: 45%;
+}
 
 /* TIMELINE */
 
 .timelineContainer {
-    margin: 2em 0;
+	margin: 2em 0;
 }
 
 .timelineElemContainer {
-    display: flex;
-    align-items: center;
-    margin: 1em 0;
+	display: flex;
+	align-items: center;
+	margin: 1em 0;
 }
 
 .timelineElemIcon {
-    background: var(--color-primary-light);
-    color: var(--color-secondary);
-    min-width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin: 0 2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	background: var(--color-primary-light);
+	color: var(--color-secondary);
+	min-width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 1em 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .timelineElemTextContainer {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .timelineElemTitle {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .timelineElemSubtitle {
-    color: var(--color-primary);
+	color: var(--color-primary);
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+	.container {
+		padding: 0 2em;
+	}
+
+	.title {
+		font-size: 1.5em;
+	}
+
+	.text,
+	.detailsButton {
+		font-size: 1em;
+	}
+
+	/* COUNTDOWN */
+	.countdownContainer {
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.countdownText {
+		font-size: 0.25em;
+	}
+
+	.timelineElemContainer {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+    .buttonsContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+	.button {
+        width: 100%;
+    }
 }
