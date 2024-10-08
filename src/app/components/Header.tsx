@@ -20,8 +20,8 @@ export default function Header() {
 					fontFamily='var(--font-typewriter)'
 					sx={{
 						fontSize: {
-							xs: '2em', // For screen sizes below 768px
-							sm: '4em', // For screen sizes 768px and above
+							xs: '3em', // For screen sizes below 768px
+							sm: '5em', // For screen sizes 768px and above
 						},
 					}}
 				>
@@ -33,7 +33,7 @@ export default function Header() {
 					fontWeight='bold'
 					sx={{
 						fontSize: {
-							xs: '0.7em', // For screen sizes below 768px
+							xs: '0.8em', // For screen sizes below 768px
 							sm: '1.3em', // For screen sizes 768px and above
 						},
 					}}
