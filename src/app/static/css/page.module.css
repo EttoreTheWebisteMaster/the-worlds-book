@@ -18,10 +18,10 @@
 }
 
 .title {
-	font-family: var(--font-courier-prime);
-	font-size: 1.8em;
-	font-weight: bold;
-	margin: 1em 0;
+	font-family: var(--font-courier-prime)!important;
+	font-size: 1.8em!important;
+	font-weight: bold!important;
+	margin: 1em 0!important;
 }
 
 .subtitle {
@@ -123,7 +123,7 @@
 	}
 
 	.title {
-		font-size: 1.5em;
+		font-size: 1.5em!important;
 	}
 
 	.text,

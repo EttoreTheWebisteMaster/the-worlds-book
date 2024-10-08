@@ -4,7 +4,6 @@ import { Button, ButtonProps } from '@mui/material';
 import { styled } from '@mui/system';
 
 const ButtonSecondary = styled(Button)<ButtonProps>(() => ({
-	backgroundColor: 'var(--color-secondary)',
 	color: 'var(--color-primary)',
 	padding: '1em 4em',
     margin: '.5em 0',
