@@ -115,7 +115,7 @@ export default function Home() {
 					<Title value='How the game works' />
 				</div>
 				
-				<div data-aos='fade-up'>
+				<div data-aos='fade-up' data-aos-delay="300">
 					<TextLong
 						title='Writer&#39;s Token Value'
 						description={
@@ -168,7 +168,7 @@ export default function Home() {
 					/>
 				</div>
 
-				<div data-aos='fade-up'>
+				<div data-aos='fade-up' data-aos-delay="300">
 					<TextLong
 						title='Missions and Rewards'
 						description={
@@ -221,7 +221,7 @@ export default function Home() {
 					/>
 				</div>
 
-				<div data-aos='fade-up'>
+				<div data-aos='fade-up' data-aos-delay="300">
 					<TextLong
 						title='Action-Based Ranking System'
 						description={
@@ -285,7 +285,7 @@ export default function Home() {
 					/>
 				</div>
 
-				<div data-aos='fade-up'>
+				<div data-aos='fade-up' data-aos-delay="300">
 					<TextLong
 						title='Writer&#39;s Token Pricing'
 						description={
