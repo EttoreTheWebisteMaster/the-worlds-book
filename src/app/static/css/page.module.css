@@ -9,7 +9,7 @@
 
 .paragraphIcon {
 	position: absolute;
-	color: #f6f5eb;
+	color: #a5987c20;
 	top: -5em;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .title {
-	font-family: var(--font-courier-prime);
+	font-family: var(--font-courier-prime)!important;
 	font-size: 1.8em;
 	font-weight: bold;
 	margin: 1em 0;
