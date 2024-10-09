@@ -132,6 +132,10 @@
 		font-size: 1em;
 	}
 
+	.paragraph {
+		margin-top: 10em;
+	}
+
 	/* COUNTDOWN */
 	.countdownContainer {
 		font-size: 1.5em;
