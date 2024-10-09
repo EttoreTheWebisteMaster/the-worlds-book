@@ -1,7 +1,6 @@
 import { Box } from '@mui/material';
 import { useEffect, useState } from 'react';
-import Paragraph from './Paragraph';
-import styles from '@/app/static/css/page.module.css'
+import styles from '@/app/static/css/page.module.css';
 
 interface CountdownProps {
 	targetDate: string; // ISO date string (e.g., "2024-12-31T23:59:59Z")
@@ -51,12 +50,10 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
 		<>
 			{timeLeft > 0 ? (
 				<div data-aos='fade-up'>
-					<Paragraph enableFade={false}>
-						<Box className={styles.countdownContainer}>
-							<Box fontSize='0.75em'>The game starts in</Box>
-                            {days} days {hours}:{minutes}:{seconds}
-						</Box>
-					</Paragraph>
+					<Box className={styles.countdownContainer}>
+						<Box fontSize='0.75em'>The game starts in</Box>
+						{days} days {hours}:{minutes}:{seconds}
+					</Box>
 				</div>
 			) : (
 				''

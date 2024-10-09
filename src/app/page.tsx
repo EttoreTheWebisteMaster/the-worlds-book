@@ -113,9 +113,7 @@ export default function Home() {
 			<Paragraph icon={<AutoStoriesIcon />} iconPosition='right'>
 				<div data-aos='fade-up' data-aos-delay="100">
 					<Title value='How the game works' />
-				</div>
-				
-				<div data-aos='fade-up' data-aos-delay="200">
+					
 					<TextLong
 						title='Writer&#39;s Token Value'
 						description={
@@ -168,7 +166,7 @@ export default function Home() {
 					/>
 				</div>
 
-				<div data-aos='fade-up' data-aos-delay="200">
+				<div data-aos='fade-up'>
 					<TextLong
 						title='Missions and Rewards'
 						description={
@@ -221,7 +219,7 @@ export default function Home() {
 					/>
 				</div>
 
-				<div data-aos='fade-up' data-aos-delay="200">
+				<div data-aos='fade-up'>
 					<TextLong
 						title='Action-Based Ranking System'
 						description={
@@ -285,7 +283,7 @@ export default function Home() {
 					/>
 				</div>
 
-				<div data-aos='fade-up' data-aos-delay="200">
+				<div data-aos='fade-up'>
 					<TextLong
 						title='Writer&#39;s Token Pricing'
 						description={

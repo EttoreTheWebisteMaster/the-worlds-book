@@ -58,6 +58,7 @@
 
 /* COUNTDOWN */
 .countdownContainer {
+	margin-top: 3em;
 	font-size: 2.5em;
 	text-align: center;
 }
