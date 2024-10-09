@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import cover from '../static/img/cover.webp';
+import coverMobile from '../static/img/coverMobile.webp';
 import { Box, Typography } from '@mui/material';
 import styles from '../static/css/header.module.css';
 
 export default function Header() {
+
 	return (
 		<Box sx={{ position: 'relative' }}>
 			<Image
@@ -13,6 +15,16 @@ export default function Header() {
 					width: '100%',
 					height: 'auto',
 				}}
+				className={styles.imageDesktop}
+			/>
+			<Image
+				src={coverMobile}
+				alt='Cover'
+				style={{
+					width: '100%',
+					height: 'auto',
+				}}
+				className={styles.imageMobile}
 			/>
 			<Box className={styles.titleContainer}>
 				<Typography

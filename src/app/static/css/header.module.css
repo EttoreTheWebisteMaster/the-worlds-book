@@ -3,3 +3,18 @@
     flex-direction: column;
     align-items: center;
 }
+
+.imageMobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .imageDesktop {
+        display: none;
+    }
+    
+    .imageMobile {
+        display: inherit;
+    }
+}
